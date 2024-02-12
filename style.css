@@ -1,0 +1,35 @@
+/*Moai*/
+.Moai {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f5ff.png) 36 36, auto;
+}
+/*Boba*/
+.boba {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f9cb.png) 36 36, auto;
+}
+/*Facewithoneeyebrowraised*/
+.Facewithoneeyebrowraised {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f928.png) 36 36, auto;
+}
+section{display:flex;}
+body{background-color:#C5E8A1
+  ;color:black;
+margin:2rem;
+font-family: 'Raleway', sans-serif;
+font-size:x-large;
+}
+article{display:flex;
+align-self:flex-start;
+position:sticky;
+top:1rem;}
+
+@keyframes workout{
+  0%{color:pink;}
+25%{color:lightpurple;}50%{color:lightgreen;}75%{color:lightblue;}100%{color:pink;}}
+
+h1{
+  animation: workout 5s infinite;
+}
+button{background-color:Pink;
+color:white;
+font-family:"Raleway";
+padding:10px}
